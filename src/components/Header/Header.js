@@ -42,7 +42,6 @@ const Header = () =>  (
       <SocialIcons href="https://facebook.com">
         <AiFillFacebook size="3rem" />
       </SocialIcons>
-      
     </Div3>
   </Container>
 );
