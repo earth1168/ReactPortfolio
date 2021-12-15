@@ -15,11 +15,11 @@ const Hero = () => (
       <SectionText>
         For me, coding is like a magic. One day, I want to use this magic to make this world a better place!
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>
+      <Button onClick={() => window.location = 'https://www.facebook.com/earthgy.pimanus/'}>
         Contact Me
       </Button>
     </LeftSection>
-  </Section>
+  </Section>  
 );
 
 export default Hero;

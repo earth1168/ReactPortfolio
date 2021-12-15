@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiDatabase, DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiCode, DiDatabase, DiFirebase, DiIllustrator, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListIcon, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -19,7 +19,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            HTML, CSS, React.js, Blade
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -29,17 +29,27 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Database
+            PHP, Laravel, SQL, Node.js, MySQL, MariaDB, Firebase
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="3rem" />
+        <DiCode size="3rem" />
         <ListContainer>
-          <ListTitle>UX-UI</ListTitle>
+          <ListTitle>Programming Language</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            C, C++, Java, JavaScript, Python
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiIllustrator size="3rem" />
+        <ListContainer>
+          <ListTitle>Others</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Adobe Illustrator, Adobe After Effect, Blender
           </ListParagraph>
         </ListContainer>
       </ListItem>
