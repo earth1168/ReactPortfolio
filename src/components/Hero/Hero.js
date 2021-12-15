@@ -13,7 +13,7 @@ const Hero = () => (
 
       </SectionTitle>
       <SectionText>
-        For me, coding is like a magic. One day, I want to use this magic to make this world a better place!
+        For me, coding is like magic. One day, I want to use this magic to make this world a better place!
       </SectionText>
       <Button onClick={() => window.location = 'https://www.facebook.com/earthgy.pimanus/'}>
         Contact Me
